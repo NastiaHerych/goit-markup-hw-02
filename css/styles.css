@@ -1,15 +1,15 @@
 :root {
-    --blue: #2196F3;
-    --white: #ffffff;
-    --black: #212121;
-    --grey: #757575;
-    --dark-grey: #2F303A;
-    --beige: #F5F4FA;
+  --blue: #2196f3;
+  --white: #ffffff;
+  --black: #212121;
+  --grey: #757575;
+  --dark-grey: #2f303a;
+  --beige: #f5f4fa;
 }
 
-body{
-    background-color: var(--white);
-    font-family: Roboto, Raleway;
+body {
+  background-color: var(--white);
+  font-family: Roboto, Raleway;
 }
 
 .list {
@@ -92,6 +92,7 @@ a {
   text-transform: uppercase;
   color: var(--white);
 }
+
 .order-btn {
   font-weight: bold;
   font-size: 16px;
@@ -104,7 +105,7 @@ a {
   background-color: var(--blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .filter-btn {
@@ -185,10 +186,10 @@ a {
   background: var(--dark-grey);
 }
 
-.address{
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .address-item-address,
