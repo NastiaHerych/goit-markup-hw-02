@@ -1,0 +1,205 @@
+:root {
+    --blue: #2196F3;
+    --white: #ffffff;
+    --black: #212121;
+    --grey: #757575;
+    --dark-grey: #2F303A;
+    --beige: #F5F4FA;
+}
+
+body{
+    background-color: var(--white);
+    font-family: Roboto, Raleway;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.nav-menu-item {
+  color: var(--black);
+}
+
+.nav-menu-item-active {
+  color: var(--blue);
+}
+
+.header-menu-item {
+  color: var(--grey);
+}
+
+.nav-menu-item:hover,
+.nav-menu-item:focus,
+.header-menu-item:hover,
+.header-menu-item:focus,
+.address-item:hover,
+.address-item:focus {
+  color: var(--blue);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.logo-header {
+  color: var(--black);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: var(--white);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--blue);
+}
+
+.order-service {
+  background-color: var(--dark-grey);
+  text-align: center;
+}
+
+.order-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.order-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer; 
+}
+
+.filter-btn {
+  background: var(--beige);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.benefits-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.benefits-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.interests-title,
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.team {
+  background: var(--beige);
+}
+
+.photo-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.photo-title-portfolio {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+
+.photo-text {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.photo-text-portfolio {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.footer {
+  background: var(--dark-grey);
+}
+
+.address{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.address-item-address,
+.address-item {
+  font-style: normal;
+}
+
+.address-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item-address {
+  color: var(--white);
+}
